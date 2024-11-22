@@ -1,0 +1,13 @@
+package u1120;
+
+public class RollEx {
+
+	public static void main(String[] args) {
+
+		Role role = Role.ADMIN;
+		
+		
+
+	}
+
+}

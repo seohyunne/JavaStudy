@@ -1,0 +1,11 @@
+package Ex08_7;
+
+public class Ex08_7 {
+
+	public static void main(String[] args) {
+		dbWork(new OracleDao());
+		dbWork(new MySqlDao());
+
+	}
+
+}

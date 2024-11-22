@@ -1,0 +1,5 @@
+package Ex08;
+
+public interface Remocon {
+	public void powerOn();
+}

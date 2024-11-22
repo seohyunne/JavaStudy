@@ -1,0 +1,31 @@
+public class Printer {
+	
+	Printer(){};
+	Printer(int value){};
+	Printer(boolean value){};
+	Printer(double value){};
+	Printer(String value){};
+	public static void logout(int value) {
+		System.out.println(value);
+	}
+	public static void logout(boolean value) {
+		System.out.println(value);
+	}
+	public static void logout(double value) {
+		System.out.println(value);
+	}
+	public static void logout(String value) {
+		System.out.println(value);
+	}
+	
+	
+	
+	
+	public static void main(String[] args) {
+//		Printer printer = new Printer();
+		Printer.logout(10);
+		Printer.logout(true);
+		Printer.logout(5.7);
+		Printer.logout("홍길동");
+	}
+}

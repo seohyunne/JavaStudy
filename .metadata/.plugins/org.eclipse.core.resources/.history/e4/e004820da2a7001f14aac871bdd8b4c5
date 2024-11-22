@@ -1,0 +1,5 @@
+package Ex11_7;
+
+public class WrongPasswordException {
+
+}

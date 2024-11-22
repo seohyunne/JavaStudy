@@ -1,0 +1,13 @@
+import java.io.*;
+
+public class ExceptionEx1 {
+
+	public static void main(String[] args) {
+
+		try
+
+	}
+	
+	static File createFile
+
+}

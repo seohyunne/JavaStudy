@@ -1,0 +1,15 @@
+package u1120;
+
+public class Main1 {
+	
+	public enum ProductStatus {
+	    SELL,       // 판매 중
+	    SOLD_OUT    // 품절
+	}
+
+	public static void main(String[] args) {
+
+
+	}
+
+}

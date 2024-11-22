@@ -1,0 +1,7 @@
+package Ex6_20;
+
+public class BankApplication {
+	int[] Account = new int[100]; 
+	
+	
+}

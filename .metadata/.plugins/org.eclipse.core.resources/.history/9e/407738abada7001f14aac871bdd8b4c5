@@ -1,0 +1,19 @@
+import java.io.*;
+
+public class ExceptionEx1 {
+
+	public static void main(String[] args) {
+
+		try
+
+	}
+	
+	static File createFile(String fileName) throws Exception{
+		if (fileName==null || fileName.equals(""))
+			throw new Exception("파일 이름이 유효하지 않습니다.");
+		File f = new File(fileName);
+		f.createNewFile();
+		return f;
+	}
+
+}

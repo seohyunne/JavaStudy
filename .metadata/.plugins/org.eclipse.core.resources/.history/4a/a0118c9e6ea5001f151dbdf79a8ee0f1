@@ -1,0 +1,11 @@
+package Ex08_6;
+
+public class Ex08_6 {
+
+	public static void main(String[] args) {
+		printSound(new Cat());
+		printSound(new Dog());
+
+	}
+
+}

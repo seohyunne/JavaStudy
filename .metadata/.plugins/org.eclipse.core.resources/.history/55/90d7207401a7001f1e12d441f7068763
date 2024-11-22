@@ -1,0 +1,12 @@
+
+public class Car {
+	String company;
+	String model;
+	String color;
+	int maxSpeed;
+	int speed;
+	public static void main(String[] args) {
+
+	}
+
+}

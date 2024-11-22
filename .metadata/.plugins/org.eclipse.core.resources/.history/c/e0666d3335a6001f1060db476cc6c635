@@ -1,0 +1,14 @@
+package u1119;
+import java.util.Scanner;
+
+public class NumString {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+		
+		int[] num = new int[5];
+
+	}
+
+}

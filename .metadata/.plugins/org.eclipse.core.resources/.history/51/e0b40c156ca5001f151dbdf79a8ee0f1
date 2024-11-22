@@ -1,0 +1,8 @@
+package Ex08_6;
+
+public class Cat {
+	public void PrintSound(Soundable soundable) {
+		System.out.println("멍멍");
+	}
+
+}

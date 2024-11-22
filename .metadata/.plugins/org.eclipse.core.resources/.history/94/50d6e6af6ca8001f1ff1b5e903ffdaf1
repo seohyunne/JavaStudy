@@ -1,0 +1,10 @@
+package Ex6_20;
+
+public class BankApplication {
+	int[][] Account = new int[100][]; 
+	
+	BankApplication() {};
+	BankApplication(int account, String name,int totalMoney, int count) {
+		Account[count]= {account,name,totalMoney};
+	};
+}

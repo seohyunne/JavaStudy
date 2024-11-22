@@ -1,0 +1,13 @@
+package u1119;
+import java.util.Scanner;
+
+public class NumHangeul {
+
+	public static void main(String[] args) {
+		int[] num = new int[5];
+		
+		
+
+	}
+
+}

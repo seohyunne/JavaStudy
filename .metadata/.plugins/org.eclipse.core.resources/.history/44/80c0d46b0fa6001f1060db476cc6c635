@@ -1,0 +1,13 @@
+package Ex08_7;
+
+public class Ex08_7 {
+
+	public static void main(String[] args) {
+		 DataAccessObject oracleDao = new OracleDao(); // 인터페이스 타입 참조
+	        dbWork(oracleDao);
+
+	        DataAccessObject mySqlDao = new MySqlDao(); // 인터페이스 타입 참조
+	        dbWork(mySqlDao);
+	}
+
+}

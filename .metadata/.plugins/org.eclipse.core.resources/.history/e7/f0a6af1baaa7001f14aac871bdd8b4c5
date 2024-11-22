@@ -1,0 +1,17 @@
+
+public class ExceptionEx {
+
+	public static void main(String[] args) {
+		try {
+			startInstall();
+		}
+
+	}
+	
+	static void startInstall() throws SpaceException, MemoryException {
+		if(!enoughSpace()) {
+			throw new SpaceException("설치할 공간이 부족합니다.");
+		}
+	}
+	
+}

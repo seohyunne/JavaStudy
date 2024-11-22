@@ -1,0 +1,12 @@
+package Person;
+
+public class PersonEx {
+
+	public static void main(String[] args) {
+		
+		Person p1 = new Person();
+		
+
+	}
+
+}

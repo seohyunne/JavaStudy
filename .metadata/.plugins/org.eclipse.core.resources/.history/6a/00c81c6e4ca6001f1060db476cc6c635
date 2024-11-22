@@ -1,0 +1,19 @@
+package Ex09_6;
+
+public class Anonymous {
+	Vehicle field = new Vehicle() {
+		
+	}
+	
+	void method1() {
+		Vehicle localVar = new Vehicle() {
+			
+		}
+		localVar.run();
+	}
+	
+	void method2(Vehicle v) {
+		v.run();
+	}
+			
+}
