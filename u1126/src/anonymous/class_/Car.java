@@ -1,0 +1,33 @@
+package anonymous.class_;
+
+public class Car {
+    // private 필드에 Tire 객체 대입
+    private Tire tire1 = new Tire();
+
+    // 필드에 익명 자식 객체 대입
+    private Tire tire2 = new Tire(){
+        public void roll(){
+            System.out.println("익명 자식 Tire 객체1 이 굴러갑니다~");
+        }
+    };
+
+    // 메소드
+    public void run1(){
+        tire1.roll();
+        tire2.roll();
+    }
+
+    public void run2(){
+        // 로컬 변수에 익명 자식 객체 대입
+        Tire tire = new Tire() {
+            public void roll() {
+                System.out.println("익명 자식 Tire 객체2가 굴러갑니다~");
+            }
+        };
+        tire.roll();
+    }
+
+    public void run3(Tire tire){
+        tire.roll();
+    }
+}
