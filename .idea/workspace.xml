@@ -5,49 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9af445ae-2557-41e1-99ca-85fa44254e22" name="Changes" comment="1126">
-      <change afterPath="$PROJECT_DIR$/ThisisJavaEx/src/ex12/ex12_05/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThisisJavaEx/src/ex12/ex12_05/StudentExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThisisJavaEx/src/ex12/ex12_06/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThisisJavaEx/src/ex12/ex12_06/MemberExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThisisJavaEx/src/ex12/ex12_08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThisisJavaEx/src/ex12/ex12_09.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThisisJavaEx/src/ex12/ex12_10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThisisJavaEx/src/ex12/ex12_11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThisisJavaEx/src/ex12/ex12_12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThisisJavaEx/src/ex12/ex12_15/Ex12_15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u1128/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u1128/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u1128/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u1128/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u1128/src/ArrayList/ArrayList1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u1128/src/ArrayList/ArrayList3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u1128/src/ArrayList/ArrayList4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u1128/src/ArrayList/ArrayList5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u1128/src/NameList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u1128/src/ch12/annotation/AnnotationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u1128/src/ch12/annotation/PrintAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u1128/src/ch12/annotation/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u1128/src/ch12/reflection/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u1128/src/ch12/reflection/ReflectionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u1128/src/sort/Compare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u1128/src/sort/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u1128/src/sort/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u1128/u1128.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u1129/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u1129/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u1129/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u1129/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u1129/src/ch15/arrayList/ArrayListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u1129/src/ch15/arrayList/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u1129/src/ch15/vectorExample/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u1129/src/ch15/vectorExample/VectorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u1129/u1129.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThisisJavaEx/src/Ex08/Ex08_05/Remocon.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThisisJavaEx/src/ex08/Ex08_05/Remocon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThisisJavaEx/src/Ex08/Ex08_05/Tv.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThisisJavaEx/src/ex08/Ex08_05/Tv.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThisisJavaEx/src/Ex08/Ex08_06/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThisisJavaEx/src/ex08/Ex08_06/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThisisJavaEx/src/Ex08/Ex08_06/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThisisJavaEx/src/ex08/Ex08_06/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThisisJavaEx/src/Ex08/Ex08_06/Soundable.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThisisJavaEx/src/ex08/Ex08_06/Soundable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThisisJavaEx/src/Ex08/Ex08_06/SoundableExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThisisJavaEx/src/ex08/Ex08_06/SoundableExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThisisJavaEx/src/Ex08/Ex08_07/DaoExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThisisJavaEx/src/ex08/Ex08_07/DaoExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThisisJavaEx/src/Ex08/Ex08_07/DataAccessObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThisisJavaEx/src/ex08/Ex08_07/DataAccessObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThisisJavaEx/src/Ex08/Ex08_07/MySqlDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThisisJavaEx/src/ex08/Ex08_07/MySqlDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThisisJavaEx/src/Ex08/Ex08_07/OracleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThisisJavaEx/src/ex08/Ex08_07/OracleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThisisJavaEx/src/Ex08/Ex08_08/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThisisJavaEx/src/ex08/Ex08_08/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThisisJavaEx/src/Ex08/Ex08_08/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThisisJavaEx/src/ex08/Ex08_08/B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThisisJavaEx/src/Ex08/Ex08_08/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThisisJavaEx/src/ex08/Ex08_08/C.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThisisJavaEx/src/Ex08/Ex08_08/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThisisJavaEx/src/ex08/Ex08_08/Example.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +84,8 @@
       <workItem from="1732496678908" duration="156000" />
       <workItem from="1732694460973" duration="842000" />
       <workItem from="1732761823434" duration="606000" />
-      <workItem from="1732779350891" duration="799000" />
+      <workItem from="1732779350891" duration="1281000" />
+      <workItem from="1732839173610" duration="595000" />
     </task>
     <task id="LOCAL-00001" summary="1126">
       <option name="closed" value="true" />
@@ -127,7 +95,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732694487388</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1126">
+      <option name="closed" value="true" />
+      <created>1732782384405</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732782384405</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
