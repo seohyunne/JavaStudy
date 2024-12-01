@@ -21,6 +21,11 @@ public class Library {
                     System.out.print("대출하려는 책 이름 입력 >> ");
                     String name = input.nextLine();
                     manager.bookLent(name);
+                    break;
+                }
+                case 3: {
+                    manager.showBookList();
+                    break;
                 }
                 case 4:
                     System.out.println("프로그램 종료");

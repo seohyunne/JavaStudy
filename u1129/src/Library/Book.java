@@ -48,9 +48,9 @@ public class Book {
     @Override
     public String toString() {
         return
-                "책 제목: " + title + '\'' +
-                "작가: '" + author + '\'' +
-                "책 번호: " + number +
-                "대출가능여부: " + (available ? "대출가능" : "대출중") ;
+                "도서명: " + title + "     "+
+                "작가: " + author + "     " +
+                "도서번호: " + number + "     " +
+                "대출가능여부: " + (available ? "O" : "X") ;
     }
 }
