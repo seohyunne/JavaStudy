@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9af445ae-2557-41e1-99ca-85fa44254e22" name="Changes" comment="1202" />
+    <list default="true" id="9af445ae-2557-41e1-99ca-85fa44254e22" name="Changes" comment="1202">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/seohyunne/Library/BookManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/seohyunne/Library/BookManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/seohyunne/Library/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/seohyunne/Library/Library.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/u1129/src/Library/BookManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/u1129/src/Library/BookManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/u1129/src/Library/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/u1129/src/Library/Library.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

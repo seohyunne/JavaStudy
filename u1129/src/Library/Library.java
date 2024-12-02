@@ -22,9 +22,8 @@ public class Library {
                     break;
                 }
                 case 2:{
-
+                    manager.bookReturn();
                 }
-
                 case 3: {
                     manager.showBookList();
                     break;
@@ -36,6 +35,9 @@ public class Library {
                 case 5: {
                     manager.bookDelete();
                     break;
+                }
+                case 6: {
+                    manager.bookUpdate();
                 }
                 case 7:
                     System.out.println("프로그램 종료");

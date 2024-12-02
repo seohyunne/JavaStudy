@@ -14,7 +14,7 @@ public class BookManager {
     
     public BookManager(){
         bookList = new ArrayList<>();   // 전체 도서 리스트
-        rentList = new ArrayList<>();
+        rentList = new ArrayList<>();   // 대출중인 도서 리스트
         
         // 초기 책 데이터 저장
         bookList.add(new Book("결국 무엇이든 해내는 사람","김상현", 2020, 1));
@@ -31,20 +31,37 @@ public class BookManager {
         System.out.println("=== 도서 대출 ===");
         System.out.print("대출하려는 책 이름 입력 >> ");
         String name = input.nextLine();
+        boolean bookFound = false;   // 도서 존재 여부 확인
         for(Book book : bookList){
             if(book.getTitle().equalsIgnoreCase(name)){    // 입력한 도서가 전체 도서 리스트에 있는지 확인
+                bookFound = true;                           // 도서가 존재하므로  true
                 if(book.isAvailable()){                    // 입력한 도서가 대출 가능한지 확인
                     book.setAvailable(false);              // '대출중' 으로 변경
+                    rentList.add(book);                   // 대출중인 도서 리스트에 추가
                     System.out.println("해당 도서는 대출이 가능합니다.");
                     System.out.println(now.plusDays(7).format(dff)+"까지 반납하세요!");// 일주일 기한 추가하기
-                    break;
                 }else {
                     System.out.println("해당 도서는 현재 대출이 불가능합니다.");
                 }
-            }else{
-//                System.out.println("입력하신 도서가 존재하지 않습니다.");
+                break; // 원하는 값 찾았으므로 반복문 탈출 !
             }
         }
+        if(bookFound==false)
+            System.out.println("입력하신 도서가 존재하지 않습니다.");
+    }
+
+    // 도서 반납
+    public void bookReturn(){
+        System.out.println("=== 도서 반납 ===");
+        System.out.print("반납하려는 책 이름 입력 >> ");
+        int index = searchIndex1();   // 반납할 도서의 인덱스 반환
+        if(index==-1){
+            System.out.println("대출 중인 도서 목록에 없는 도서입니다.");
+        }else{
+            delete(index);
+            System.out.println(bookList.get(index).getTitle()+" 반납 완료!");
+        }
+
     }
     // 도서 조회
     public void showBookList(){
@@ -82,12 +99,30 @@ public class BookManager {
         }
     }
 
+    // 도서 수정
+    public void bookUpdate(){
 
+    }
+
+
+    // bookList search 함수
     private int searchIndex(){
         int index = -1;
         String title = input.nextLine();
         for(int i=0; i<bookList.size(); i++){
             if(bookList.get(index).getTitle().equals(title)){
+                index = i;
+                break;
+            }
+        }
+        return index;
+    }
+    // rentList search 함수
+    private int searchIndex1(){
+        int index = -1;
+        String title = input.nextLine();
+        for(int i=0; i<rentList.size(); i++){
+            if(rentList.get(index).getTitle().equals(title)){
                 index = i;
                 break;
             }
