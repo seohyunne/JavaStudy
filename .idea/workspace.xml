@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9af445ae-2557-41e1-99ca-85fa44254e22" name="Changes" comment="1126">
-      <change afterPath="$PROJECT_DIR$/u1202/src/exception/Exception1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/seohyunne.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/seohyunne.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/u1129/src/Library/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/u1129/src/Library/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/u1129/src/Library/BookManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/u1129/src/Library/BookManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/u1129/src/Library/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/u1129/src/Library/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/u1129/src/Library/Member.java" beforeDir="false" />
-    </list>
+    <list default="true" id="9af445ae-2557-41e1-99ca-85fa44254e22" name="Changes" comment="1202" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,7 +111,7 @@
       <workItem from="1732976297592" duration="701000" />
       <workItem from="1732977191343" duration="3403000" />
       <workItem from="1733103520025" duration="8482000" />
-      <workItem from="1733117733018" duration="10129000" />
+      <workItem from="1733117733018" duration="10450000" />
     </task>
     <task id="LOCAL-00001" summary="1126">
       <option name="closed" value="true" />
@@ -138,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732782384405</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1202">
+      <option name="closed" value="true" />
+      <created>1733128283819</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733128283819</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,7 +145,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1126" />
-    <option name="LAST_COMMIT_MESSAGE" value="1126" />
+    <MESSAGE value="1202" />
+    <option name="LAST_COMMIT_MESSAGE" value="1202" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
