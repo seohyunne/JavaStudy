@@ -9,27 +9,38 @@ public class Library {
 
         boolean state = true;
         while(state){
-            System.out.println("===== 도서 대여 시스템 ====");
-            System.out.println("1.대출 2.반납 3.조회 4.종료");
-            System.out.println("===========================");
+            System.out.println("================ 도서 관리 시스템 ==============");
+            System.out.println("1.대출 2.반납 3.조회 4.추가 5.삭제 6.수정 7.종료");
+            System.out.println("================================================");
             System.out.print("원하는 작업 선택 >> ");
             int choice = input.nextInt();
             input.nextLine();
 
             switch(choice){
                 case 1:{
-                    System.out.print("대출하려는 책 이름 입력 >> ");
-                    String name = input.nextLine();
-                    manager.bookLent(name);
+                    manager.bookLent();
                     break;
                 }
+                case 2:{
+
+                }
+
                 case 3: {
                     manager.showBookList();
                     break;
                 }
-                case 4:
-                    System.out.println("프로그램 종료");
+                case 4: {
+                    manager.bookInsert();
                     break;
+                }
+                case 5: {
+                    manager.bookDelete();
+                    break;
+                }
+                case 7:
+                    System.out.println("프로그램 종료");
+                    input.close();
+                    System.exit(0);
             }
         }
 

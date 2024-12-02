@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9af445ae-2557-41e1-99ca-85fa44254e22" name="Changes" comment="1126">
-      <change afterPath="$PROJECT_DIR$/u1129/src/Library/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u1202/src/exception/Exception1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/seohyunne.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/seohyunne.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/u1129/src/Library/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/u1129/src/Library/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/u1129/src/Library/BookManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/u1129/src/Library/BookManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/u1129/src/Library/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/u1129/src/Library/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/u1129/src/Library/Member.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +40,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/seohyunne/JavaStudy.git&quot;,
-    &quot;accountId&quot;: &quot;4e178645-94bd-45ec-b4a5-6de2a453a315&quot;
+    &quot;url&quot;: &quot;https://github.com/seohyunne/JavaStudy&quot;,
+    &quot;accountId&quot;: &quot;c67f006f-fb6e-43e3-a14e-a0547da56ea7&quot;
   }
 }</component>
   <component name="KotlinCodeInsightWorkspaceSettings">
@@ -54,35 +55,41 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2pJsCHZ0zt4kJPnEteChER652k0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Library.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Reservation.executor": "Run",
-    "Application.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ㅅㅓ현/IdeaProjects/JavaStudy",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/YONSAI/Desktop/java/seohyunne/1125/src/Main.java",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DirectoryEx.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DirrectoryCheck.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Exception2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Library.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Reservation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/YONSAI/Desktop/source/workspace-original/thisisjava&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/YONSAI/Desktop/java/seohyunne/1125/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -112,6 +119,8 @@
       <workItem from="1732975788765" duration="401000" />
       <workItem from="1732976297592" duration="701000" />
       <workItem from="1732977191343" duration="3403000" />
+      <workItem from="1733103520025" duration="8482000" />
+      <workItem from="1733117733018" duration="10129000" />
     </task>
     <task id="LOCAL-00001" summary="1126">
       <option name="closed" value="true" />
