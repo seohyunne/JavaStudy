@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class StudentDAO {
     private ArrayList<StudentDTO> students;
     Scanner input = new Scanner(System.in);
+    FileClass file = new FileClass("student", "studenGrade");
 
     public StudentDAO() {
         students = new ArrayList<>();
@@ -132,6 +133,24 @@ public class StudentDAO {
         }
     }
 
+    public void dataSave() throws Exception {
+        file.create();
+        String str = "이름    나이    국어    영어    수학\n";
+        System.out.println("====================================");
+        for(int i=0; i<students.size();i++){
+            str+= students.get(i).toString()+"\n";
+        }
+        file.write(str);
+    }
+
+    public void dataLoad() {
+        try{
+            file.read();
+        }catch(Exception e){
+            System.out.println("읽을 파일이 없습니다.");
+        }
+    }
+
     // 수정할 객체의 인덱스 자리에 새로 생성한 인덱스(점수 수정 완료한 객체) 넣기
     private void update(int index, StudentDTO s){
         students.set(index,s);
@@ -148,6 +167,7 @@ public class StudentDAO {
         }
         return index;
     }
+
 
 
 }

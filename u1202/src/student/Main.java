@@ -53,9 +53,22 @@ public class Main {
             else if(choice==5){
                 studentdao.printAll();
             }
+            else if(choice==6){
+                try{
+                    studentdao.dataSave();
+                }catch(Exception e){
+                    e.printStackTrace();
+                }
+            }
+            else if(choice==7){
+                studentdao.dataLoad();
+            }
             else if(choice==0){
                input.close();
                 System.exit(0);
+            }
+            else{
+                System.out.println("잘못 선택했습니다. 올바른 값을 입력하세요.");
             }
         }
     }

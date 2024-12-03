@@ -5,11 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9af445ae-2557-41e1-99ca-85fa44254e22" name="Changes" comment="1202">
+      <change afterPath="$PROJECT_DIR$/u1202/src/student/FileClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u1203/src/Coffee/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u1203/src/Coffee/CoffeeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u1203/src/Coffee/CoffeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u1203/src/Coffee/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u1203/src/Coffee/StringBuffer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u1203/src/Generic/Gen1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u1203/src/Generic/Gen2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u1203/src/Map/HashMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u1203/src/Map/TreeMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u1203/src/Singleton/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u1203/src/Singleton/SingletonLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u1203/src/Singleton/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/seohyunne/Library/BookManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/seohyunne/Library/BookManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/seohyunne/Library/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/seohyunne/Library/Library.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/u1129/src/Library/BookManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/u1129/src/Library/BookManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/u1129/src/Library/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/u1129/src/Library/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/seohyunne/student/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/seohyunne/student/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/seohyunne/student/StudentDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/seohyunne/student/StudentDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/u1202/src/student/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/u1202/src/student/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/u1202/src/student/StudentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/u1202/src/student/StudentDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +88,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/YONSAI/Desktop/source/workspace-original/thisisjava&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/YONSAI/Desktop/java/seohyunne&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -87,6 +102,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="student" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -117,7 +137,9 @@
       <workItem from="1732976297592" duration="701000" />
       <workItem from="1732977191343" duration="3403000" />
       <workItem from="1733103520025" duration="8482000" />
-      <workItem from="1733117733018" duration="10450000" />
+      <workItem from="1733117733018" duration="10498000" />
+      <workItem from="1733184284365" duration="3661000" />
+      <workItem from="1733202397787" duration="621000" />
     </task>
     <task id="LOCAL-00001" summary="1126">
       <option name="closed" value="true" />
@@ -143,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733128283819</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1202">
+      <option name="closed" value="true" />
+      <created>1733128359905</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733128359905</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
