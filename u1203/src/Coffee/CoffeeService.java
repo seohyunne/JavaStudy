@@ -56,7 +56,7 @@ public class CoffeeService {
 
                 // 재주문
                 if(reOrder){
-                    for(String coffee : orderList.keySet()){
+                    for(String coffee : orderList.keySet()){ㅅ
                         if(coffee.equals(coffeeName)){
                             int addCount = orderList.get(coffee).intValue() + orderCount;
                             // 똑같은 메뉴를 또 주문하면 이전 주문 리스트의 수량을 불러와서 재주문한 수량과 더한다.
