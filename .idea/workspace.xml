@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9af445ae-2557-41e1-99ca-85fa44254e22" name="Changes" comment="1203">
-      <change afterPath="$PROJECT_DIR$/u1206/src/movie/AbstractMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u1206/src/movie/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u1206/src/movie/MainMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u1206/src/movie/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u1206/src/movie/Reservation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/u1206/src/movie/Seats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9af445ae-2557-41e1-99ca-85fa44254e22" name="Changes" comment="1211">
+      <change afterPath="$PROJECT_DIR$/u1211/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u1211/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u1211/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u1211/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u1211/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u1211/src/javaAir/FileC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u1211/src/javaAir/Flight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u1211/src/javaAir/FlightManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u1211/src/javaAir/FlightReservationMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u1211/src/javaAir/Passenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/u1211/u1211.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024-12-03__9_05__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +83,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/YONSAI/Desktop/java/JavaProject/Reservation",
+    "last_opened_file_path": "C:/Users/YONSAI/Desktop/java/seohyunne",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -144,6 +150,7 @@
       <workItem from="1733444131735" duration="351000" />
       <workItem from="1733448197568" duration="1252000" />
       <workItem from="1733463344166" duration="1368000" />
+      <workItem from="1733905772465" duration="331000" />
     </task>
     <task id="LOCAL-00001" summary="1126">
       <option name="closed" value="true" />
@@ -185,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733214569451</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1211">
+      <option name="closed" value="true" />
+      <created>1733905785325</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733905785325</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,7 +210,8 @@
     <MESSAGE value="1126" />
     <MESSAGE value="1202" />
     <MESSAGE value="1203" />
-    <option name="LAST_COMMIT_MESSAGE" value="1203" />
+    <MESSAGE value="1211" />
+    <option name="LAST_COMMIT_MESSAGE" value="1211" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
